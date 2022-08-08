@@ -1,0 +1,1 @@
+sudo docker run --runtime nvidia --privileged --rm -it --env MQTT_BROKER_IP=192.168.1.34 --env MQTT_DEVICE_NAME=test_maskcam --env MASKCAM_DEVICE_ADDRESS=192.168.1.9 -p 1883:1883 -p 8080:8080 -p 8554:8554 maskcam/maskcam-beta
